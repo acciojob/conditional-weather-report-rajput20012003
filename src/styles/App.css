@@ -1,1 +1,27 @@
 
+.weather-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-container p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.temperature {
+  font-weight: bold;
+}
+
+.temperature.red {
+  color: red;
+}
+
+.temperature.blue {
+  color: blue;
+}
+
